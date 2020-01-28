@@ -95,4 +95,16 @@ uid: auditor
 userPassword: 2FederateM0re
 pf-connected-identity: auth-source=pf-local-identity:user-id=auditor
 
+dn: uid=ed,ou=People,${USER_BASE_DN}
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: pf-connected-identities
+sn: PingFederate
+cn: Admin
+uid: admin
+userPassword: 2FederateM0re
+pf-connected-identity: auth-source=pf-local-identity:user-id=auditor
+
 
